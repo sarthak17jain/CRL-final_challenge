@@ -313,6 +313,8 @@ footer{
     main{
         width: 60%;
     }
+    /* CSS specificity of id is greater than that of a class. Therefore,
+       it overwrites the property of three-col class ie. flex-direction: row*/
     #section-two-aside{
         margin-top: 0;
         width: 30%;
